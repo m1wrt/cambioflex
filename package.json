@@ -18,7 +18,8 @@
     "axios": "^1.7.9",
     "axioss": "^0.0.1-security",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

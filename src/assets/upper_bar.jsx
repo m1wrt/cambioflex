@@ -16,8 +16,7 @@ const Upperbar = () => {
         <Box sx={{ flexGrow: 1 }}>
         <AppBar position='fixed'>
           <Toolbar>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} onClick={home_redirect}>Cambioflex</Typography>
-            <Button color="inherit" variant='outlined' onClick={support_redirect} disabled>Support</Button>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}> <a style={{ cursor: 'pointer', textDecoration: 'none', color: 'inherit' }} href="/cambioflex/">CambioFlex</a> </Typography>            <Button color="inherit" variant='outlined' href="support" >Support</Button>
           </Toolbar>
         </AppBar>
       </Box>

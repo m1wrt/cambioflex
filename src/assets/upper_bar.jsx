@@ -9,7 +9,7 @@ function support_redirect(){
 }
 
 function home_redirect(){
-  setInterval(() => {location.href='/'}, time_f_redirect)
+  setInterval(() => {location.href='/cambioflex/'}, time_f_redirect)
 }
 const Upperbar = () => {
     return(

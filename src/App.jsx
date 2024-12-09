@@ -79,7 +79,7 @@ function bcv_old() {
                 </AccordionDetails>
                 <AccordionActions>
                   <Button disabled variant='outlined'>Compartir</Button>
-                  <Button variant='contained' startIcon={<CurrencyExchangeIcon/>} onClick={bcv_redirect}>Detalles</Button>
+                  <Button variant='contained' startIcon={<CurrencyExchangeIcon/>} href='bcv'>Detalles</Button>
                 </AccordionActions>
               </Accordion>
             </Box>
@@ -98,7 +98,7 @@ function bcv_old() {
                 </AccordionDetails>
                 <AccordionActions>
                   <Button disabled variant='outlined'>Compartir</Button>
-                  <Button variant='contained' startIcon={<CurrencyExchangeIcon/>} onClick={enparalelovzla_redirect}>Detalles</Button>
+                  <Button variant='contained' startIcon={<CurrencyExchangeIcon/>} href='ep'>Detalles</Button>
                 </AccordionActions>
               </Accordion>
               <Card sx={{ marginTop: 2 }}>
@@ -106,7 +106,7 @@ function bcv_old() {
                   <Typography variant='h4'>Utilidades:</Typography>
                   <center>
                     <ButtonGroup variant='contained'>
-                    <Button startIcon={<CompareArrowsIcon/>} onClick={compare_redirect}>Comparar</Button>
+                    <Button startIcon={<CompareArrowsIcon/>} href='bcv'>Comparar</Button>
                     <Button disabled>Copiar tasas</Button>
                     </ButtonGroup>
                   </center>

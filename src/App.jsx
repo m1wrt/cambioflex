@@ -106,7 +106,7 @@ function bcv_old() {
                   <Typography variant='h4'>Utilidades:</Typography>
                   <center>
                     <ButtonGroup variant='contained'>
-                    <Button startIcon={<CompareArrowsIcon/>} href='bcv'>Comparar</Button>
+                    <Button startIcon={<CompareArrowsIcon/>} href='compare'>Comparar</Button>
                     <Button disabled>Copiar tasas</Button>
                     </ButtonGroup>
                   </center>

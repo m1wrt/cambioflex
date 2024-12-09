@@ -47,7 +47,7 @@ export default function SimpleTabs() {
   };
 
   useEffect(() => {
-    fetch('internal_changelog.md')
+    fetch('/internal_changelog.md')
       .then(response => response.text())
       .then(text => setChangelog(text));
   }, []);

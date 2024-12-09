@@ -12,7 +12,7 @@ export default defineConfig({
         bcv: resolve(__dirname, '/bcv.html'),
         compare: resolve(__dirname, '/compare.html'),
         ep: resolve(__dirname, '/ep.html'),
-        support: resolve(__dirname, '/support')
+        support: resolve(__dirname, '/support.html')
       },
     },
   },

@@ -8,10 +8,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: 'index.html',
-        bcv: 'bcv.html',
-        compare: 'compare.html',
-        ep: 'ep.html'
+        main: resolve(__dirname, 'index.html'),
+        bcv: resolve(__dirname, 'bcv.html'),
+        compare: resolve(__dirname, 'compare.html'),
+        ep: resolve(__dirname, 'ep.html')
       },
     },
   },

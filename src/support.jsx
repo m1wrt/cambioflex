@@ -45,9 +45,9 @@ export default function SimpleTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
-
+//! Arreglar esto
   useEffect(() => {
-    fetch('/internal_changelog.md')
+    fetch('https://raw.githubusercontent.com/m1wrt/cambioflex/refs/heads/main/internal_changelog.md')
       .then(response => response.text())
       .then(text => setChangelog(text));
   }, []);

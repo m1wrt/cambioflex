@@ -11,7 +11,8 @@ export default defineConfig({
         main: resolve(__dirname, '/index.html'),
         bcv: resolve(__dirname, '/bcv.html'),
         compare: resolve(__dirname, '/compare.html'),
-        ep: resolve(__dirname, '/ep.html')
+        ep: resolve(__dirname, '/ep.html'),
+        support: resolve(__dirname, '/support')
       },
     },
   },

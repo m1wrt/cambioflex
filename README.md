@@ -7,5 +7,5 @@ CambioFlex, es una plataforma para consultar el precio del dolar en las tasas ma
 CambioFlex no esta vinculado a ningun partido politico/institucion venezolana.
 ---
 # **Futuras Novedades**
-- [ ] Añadir Menu de donaciones
+- [x] Añadir Menu de donaciones
 - [ ] Mas informacion sobre la comparacion de tasas

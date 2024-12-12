@@ -105,7 +105,7 @@ function bcv_old() {
                 <CardContent>
                   <Typography variant='h4'>Utilidades:</Typography>
                   <center>
-                    <ButtonGroup variant='contained'>
+                    <ButtonGroup variant='contained' sx={{ marginTop: 2 }}>
                     <Button startIcon={<CompareArrowsIcon/>} href='compare'>Comparar</Button>
                     <Button disabled>Copiar tasas</Button>
                     </ButtonGroup>

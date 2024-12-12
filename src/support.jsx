@@ -71,7 +71,7 @@ export default function SimpleTabs() {
   return (
     <div style={{ flexGrow: 1, backgroundColor: '#fff' }}>
       <Upperbar />
-      <AppBar position="fixed" style={{ marginTop: 56 }}>
+      <AppBar position="fixed" style={{ marginTop: 53 }}>
         <Tabs value={value} onChange={handleChange} aria-label="Seleccion">
           <Tab label="Terms of use" {...a11yProps(0)} />
           <Tab label="Novedades" {...a11yProps(1)} />
@@ -92,7 +92,7 @@ export default function SimpleTabs() {
         <center>
           <Card style={{ marginTop: 20 }}>
             <CardContent>
-            <Typography textAlign={'justify'}>Estamos trabajando para tener diversos métodos de pago a la hora de realizar las donaciones</Typography>
+            <Typography textAlign={'center'}>Estamos trabajando para tener diversos métodos de pago a la hora de realizar las donaciones</Typography>
             </CardContent>
           </Card>
           <Card style={{marginTop: 10}}>
@@ -108,7 +108,7 @@ export default function SimpleTabs() {
           <Card style={{marginTop: 10}}>
             <CardContent>
             <Typography variant='h4'>¡Gracias totales!</Typography>
-            <Typography textAlign={'justify'}>Cambioflex se financia bajo donaciones, es decir, no generamos ingresos a partir de anuncios invasivos.</Typography>
+            <Typography textAlign={'center'}>Cambioflex se financia bajo donaciones, es decir, no generamos ingresos a partir de anuncios invasivos.</Typography>
             <Typography>Cada pequeño aporte nos ayuda a seguir desarrollando</Typography>
             </CardContent>
           </Card>

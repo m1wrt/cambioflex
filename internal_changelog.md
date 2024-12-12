@@ -7,6 +7,8 @@
 ### Creacion
 - Añadidos terminos de servicio
 - Añadido soporte a donaciones con USDT
+### [Parches]
+- [2024-12-11] Solucionado errores de diseño en la pestaña support
 
 ---
 

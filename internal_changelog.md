@@ -9,7 +9,7 @@
 - Añadido soporte a donaciones con USDT
 ### [Parches]
 - [2024-12-11] Solucionado errores de diseño en la pestaña support
-
+- [2024-12-12] Se cambio el favicon predeterminado al logo de cambioflex 
 ---
 
 ## [1.0.0] - 2024-12-09

@@ -120,7 +120,7 @@ export default function SimpleTabs() {
       <Dialog open={openUSDT} onClose={handleCloseUSDT}>
         <DialogTitle>Donar con USDT</DialogTitle>
         <DialogContent>
-          <Typography>Cartera USDT: TT1jeK7B4obaB9Yf2EqyLFPbKTHVVTyw9D</Typography>
+          <Typography>[RED TRON] TT1jeK7B4obaB9Yf2EqyLFPbKTHVVTyw9D</Typography>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleCloseUSDT} color="primary">Cerrar</Button>

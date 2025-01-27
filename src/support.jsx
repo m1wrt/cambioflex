@@ -83,6 +83,7 @@ export default function SimpleTabs() {
         <Typography variant="h6" align="justify">
           Aclaratoria: Esta aplicación no está relacionada ni afiliada a ningún gobierno ni partido político. Es un proyecto independiente de desarrollo que utiliza la API de pydolarvenezuela para proporcionar información sobre las tasas de cambio del dólar en diferentes mesas. Si valoras nuestro trabajo y deseas apoyar el desarrollo continuo de esta aplicación, consideramos cualquier donación como un gesto de gran aprecio. ¡Gracias por tu apoyo!
         </Typography>
+{// poner línea para reporte de bugs}
       </TabPanel>
       <TabPanel value={value} index={1} style={{ marginTop: 70 }}>
         <ReactMarkdown>{changelog}</ReactMarkdown>
